@@ -9,5 +9,5 @@ export default defineConfig({
   dbCredentials: {
     url: env.DATABASE_URL,
   },
-  tablesFilter: ["better_t3_*"],
+  tablesFilter: ["better_t32_*"],
 });
