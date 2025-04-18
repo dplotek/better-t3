@@ -9,4 +9,5 @@ export default defineConfig({
   dbCredentials: {
     url: env.DATABASE_URL,
   },
+  tablesFilter: ["better_t3_*"]
 });
