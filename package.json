@@ -14,7 +14,7 @@
 		"typecheck": "tsc --noEmit",
 		"db:push": "drizzle-kit push",
 		"db:studio": "drizzle-kit studio",
-		"postinstall": "drizzle-kit push"
+		"postinstall": "drizzle-kit generate --yes && drizzle-kit push"
 	},
 	"dependencies": {
 		"@t3-oss/env-nextjs": "^0.12.0",
