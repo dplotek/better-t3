@@ -10,5 +10,4 @@ export default defineConfig({
     url: env.DATABASE_URL,
   },
   tablesFilter: ["better_t3_*"],
-  strict: true
 });
